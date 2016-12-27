@@ -12,6 +12,8 @@ app.set('view engine', 'hbs');
 //     res.render('maintenance.hbs');
 // });
 
+
+// test ssh key
 app.use(express.static(__dirname + '/public'));
 
 app.use((req, res, next) => {
